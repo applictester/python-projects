@@ -1,0 +1,11 @@
+def IsPointInCircle(x, y, xc, yc, r):
+    return (x - xc) ** 2 + (y - yc) ** 2 <= r ** 2
+
+# Основна програма
+x = float(input("Введіть координату x: "))
+y = float(input("Введіть координату y: "))
+xc = float(input("Введіть координату центра кола xc: "))
+yc = float(input("Введіть координату центра кола yc: "))
+r = float(input("Введіть радіус кола r: "))
+
+print("YES" if IsPointInCircle(x, y, xc, yc, r) else "NO")
