@@ -1,4 +1,5 @@
 # https://uk.wikipedia.org/wiki/Решето_Ератосфена
+# https://eolymp.com/uk/problems/830
 
 m, n = map(int, input().split())
 
